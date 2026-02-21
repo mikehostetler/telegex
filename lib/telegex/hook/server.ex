@@ -1,4 +1,4 @@
-if Code.ensure_loaded?(Plug) do
+if Code.ensure_loaded?(Plug.Router) do
   defmodule Telegex.Hook.Server do
     @moduledoc false
 
